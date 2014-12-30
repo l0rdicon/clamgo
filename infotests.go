@@ -79,7 +79,7 @@ func newEmptyDigs() *Digs {
     return &Digs {}
 }
 
-func toClamAddress(string address) string {
+func toClamAddress(address string ) string {
 
     //Decode Base58 to []byte
     dbin := btcutil.Base58Decode(address)
